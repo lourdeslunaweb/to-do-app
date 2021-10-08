@@ -1,6 +1,6 @@
 # 📋 Organizador de tareas: "To-Do-App"
 
-### 🦹👩‍💻 Realizado con ❤️ por:
+### 👩‍💼 Realizado con ❤️ por:
 - [Lourdes Luna](https://github.com/lourdeslunaweb)
 
 <!-- ### 🛠️ Este proyecto cuenta con las siguientes funcionalidades 
@@ -22,6 +22,7 @@
 - Se puede ir a la página anterior
 - Se deshabilitan los botones correspondientes cuando no puedan ser utilizados (por ejemplo, si se está en la última página, no se debe poder utilizar el botón de ir a la última página ni el de avanzar página) -->
 
+<!-- ### 🖥️ Deployado [aquí](https://lourdeslunaweb.github.io/marvel-comics/) -->
 
 ### 🚀 Tecnologías utilizadas:
 - React Js
