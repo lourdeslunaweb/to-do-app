@@ -5,8 +5,8 @@ const CreateTask = () => {
             < form className="container my-5 col-md-6 col-12">
                 <fieldset>
                     <div className="form-group">
-                        <label htmlFor="inputName" className="form-label mt-4">Título de la tarea</label>
-                        <input type="name" className="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Título aquí" />
+                        <label htmlFor="inputTask" className="form-label mt-4">Título de la tarea</label>
+                        <input type="name" className="form-control" id="inputTask" aria-describedby="taskHelp" placeholder="Título aquí" />
                     </div>
                     <div className="form-group">
                         <label htmlFor="exampleTextarea" className="form-label mt-4">Descripción de la tarea</label>
