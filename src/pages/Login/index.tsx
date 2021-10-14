@@ -7,12 +7,12 @@ const Login = () => {
                 <fieldset>
                     <legend>Iniciar sesión</legend>
                     <div className="form-group">
-                        <label htmlFor="exampleInputEmail1" className="form-label mt-4">Ingresá tu email</label>
-                        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email aquí" />
+                        <label htmlFor="exampleInputEmail" className="form-label mt-4">Ingresá tu email</label>
+                        <input type="email" className="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email aquí" />
                     </div>
                     <div className="form-group">
-                        <label htmlFor="exampleInputPassword1" className="form-label mt-4">Contraseña</label>
-                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Contraseña aqui" />
+                        <label htmlFor="exampleInputPassword" className="form-label mt-4">Contraseña</label>
+                        <input type="password" className="form-control" id="exampleInputPassword" placeholder="Contraseña aqui" />
                     </div>
                 </fieldset>
                 <button type="submit" className="btn btn-primary mt-5">Ingresar</button>

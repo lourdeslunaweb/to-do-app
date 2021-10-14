@@ -1,5 +1,5 @@
 import { CardUserInit } from "../../components"
-import { CardUserLogged } from "../../components"
+// import { CardUserLogged } from "../../components"
 
 const Header = () => {
     return (
