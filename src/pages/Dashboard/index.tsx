@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
 import { Cards } from "../../components";
+import { Layout } from "../../layout";
 
 const Dashboard = () => {
     return (
-        <div>
+        <Layout>
             <div className="container my-5">
                 <div className="row mt-5 mx-1">
                     <h2 className="text-center"> Mis tareas </h2>
-                    <button type="button" className="btn btn-outline-primary mt-3">Crear nueva tarea</button>
+                    <button type="button" className="btn btn-outline-primary mt-3"> <Link to="/create-task">Crear nueva tarea</Link></button>
                 </div>
                 <div className="row d-flex justify-content-center mt-5">
                     <h3 className="text-center text-info">Tareas pendientes </h3>
@@ -59,7 +61,7 @@ const Dashboard = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </Layout>
     )
 }
 
