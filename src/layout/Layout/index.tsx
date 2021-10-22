@@ -1,10 +1,14 @@
 import { FC } from "react"
 import { Footer, Header, Main } from ".."
 
-const Layout: FC = ({ children }) => {
+type Props ={
+    hideCardUserInit?: boolean;
+}
+
+const Layout: FC<Props> = ({ children, hideCardUserInit }) => {
     return (
         <>
-            <Header />
+            {!hideCardUserInit && <Header />}
             <Main>
                 {children}
             </Main>

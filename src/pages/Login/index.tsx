@@ -4,7 +4,7 @@ import { Layout } from '../../layout';
 
 const Login = () => {
     return (
-        <Layout>
+        <Layout hideCardUserInit>
             <div className="mt-5">
                 < form className="container my-5 col-md-6 col-12">
                     <fieldset>
