@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom"
+
 const CardUserInit = () => {
     return (
         <div className="card border-primary mb-3 col-7 col-md-4">
-            <div className="card-header text-center">Iniciar sesión</div>
-            <div className="card-header text-center">Crear cuenta</div>
+            <Link to="/login"><div className="card-header text-center">Iniciar sesión</div></Link>
+            <Link to="/sign-up"><div className="card-header text-center">Crear cuenta</div></Link>
         </div>
     )
 }
