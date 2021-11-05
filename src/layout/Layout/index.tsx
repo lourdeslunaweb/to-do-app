@@ -2,13 +2,13 @@ import { FC } from "react"
 import { Footer, Header, Main } from ".."
 
 type Props ={
-    hideCardUserInit?: boolean;
+    hideHeader?: boolean;
 }
 
-const Layout: FC<Props> = ({ children, hideCardUserInit }) => {
+const Layout: FC<Props> = ({ children, hideHeader }) => {
     return (
         <>
-            {!hideCardUserInit && <Header />}
+            {!hideHeader && <Header />}
             <Main>
                 {children}
             </Main>
