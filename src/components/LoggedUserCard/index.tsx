@@ -1,4 +1,4 @@
-const CardUserLogged = () => {
+const LoggedUserCard = () => {
     return (
         <div className="card border-primary mb-3 col-7 col-md-4">
             <h4 className="card-title text-center mt-1">Nombre: Lourdes Luna</h4>
@@ -10,4 +10,4 @@ const CardUserLogged = () => {
     )
 }
 
-export { CardUserLogged }
+export { LoggedUserCard }

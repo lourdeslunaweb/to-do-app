@@ -3,7 +3,6 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import './App.css';
 import 'bootswatch/dist/vapor/bootstrap.min.css';
 import {Login, SignUp, Dashboard, CreateTask, Unlogged} from "./pages";
-// import {Header, Footer} from "./layout";
 
 function App() {
   return (

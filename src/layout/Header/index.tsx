@@ -1,5 +1,3 @@
-import { CardUserInit } from "../../components"
-// import { CardUserLogged } from "../../components"
 
 const Header = () => {
     return (
@@ -9,8 +7,6 @@ const Header = () => {
                     <h1 className="text-center">To-Do-App</h1>
                     <p className="text-center">Organizador de tareas</p>
                 </div>
-                <CardUserInit/>
-                {/* <CardUserLogged/> */}
             </div>
         </header>
     )
